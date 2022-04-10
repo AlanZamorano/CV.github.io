@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+body{
+    padding: 0%;
+    margin: 0;
+    background-image:url(fondo.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    height: 100vh;
+}
+.grid{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+
+}
+.grid2{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20em;
+}
+img{
+    background-color: white;
+    width: 100%;
+    height: 230px;
+}
+.escuela1{
+    background-color: #1c307b;
+}   
+.escuela2{
+    background-color: #98392f;
+}
+.escuela3{
+    background-color: #e9c82a;
+}  
+.escuela4{
+    background-color: #005e35;
+}  
+.escuela5{
+    background-color: #c5a2ff;
+}  

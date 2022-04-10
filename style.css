@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-image:url(fondo.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2em;
+}
+
+.carousel-inner img{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5em;
+
+}
